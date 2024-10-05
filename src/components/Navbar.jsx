@@ -1,7 +1,9 @@
 import { Menu, X } from 'lucide-react';
+
 import React, { useState } from 'react'
-// import logo from '../assets/profile-pictures/user1.jpg';
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
+import logo from '../assets/logo.png';  // If you need to go two levels up
+
 import { navItems } from '../constants';
 
 
@@ -27,7 +29,7 @@ const toggleNavbar=()=>{
     <div className="flex items-center
     //  flex-shrink-0
     ">
-        {/* <img src={logo} alt="" /> */}
+        {/* <img src="logo" alt="" /> */}
         <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
         {/* fdd */}
         <span className="text-xl tracking-tight">VirtualR</span>
